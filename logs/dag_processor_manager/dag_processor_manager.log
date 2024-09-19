@@ -7329,3 +7329,4 @@ File Path                                           PID    Runtime      # DAGs  
 /opt/airflow/dags/dag_with_taskflow_api.py                                   1           0  0.15s           2024-09-19T19:06:55
 /opt/airflow/dags/dag_with_catchup_and_backfill.py                           1           0  0.05s           2024-09-19T19:07:10
 ================================================================================
+[2024-09-19T19:07:30.268+0000] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
