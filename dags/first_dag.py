@@ -11,9 +11,9 @@ default_args = {
 }
 
 with DAG(
-    dag_id = "first_dag_v5",
+    dag_id = "dag_with_bash_operator_v6",
     default_args = default_args,
-    description = "This is first dag",
+    description = "dag with bash operator",
     start_date = datetime(2024, 9, 18, 23),
     schedule_interval = "@daily"
     ) as dag:
