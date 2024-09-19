@@ -2233,3 +2233,16 @@ File Path                       PID    Runtime      # DAGs    # Errors  Last Run
 /opt/airflow/dags/first_dag.py                           1           0  0.06s           2024-09-18T22:05:07
 ================================================================================
 [2024-09-18T22:05:42.693+0000] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2024-09-19T15:48:05.183+0000] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2024-09-19T15:48:05.186+0000] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2024-09-19T15:48:05.187+0000] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-09-19T15:48:05.191+0000] {manager.py:709} INFO - Searching for files in /opt/airflow/dags
+[2024-09-19T15:48:05.205+0000] {manager.py:712} INFO - There are 1 files in /opt/airflow/dags
+[2024-09-19T15:48:16.320+0000] {manager.py:828} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/first_dag.py                           1           0  0.06s           2024-09-19T15:48:05
+================================================================================
