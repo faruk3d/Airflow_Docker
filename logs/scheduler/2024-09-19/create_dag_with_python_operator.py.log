@@ -1036,3 +1036,10 @@ AttributeError: 'tuple' object has no attribute 'tzinfo'
 [2024-09-19T16:56:51.662+0000] {logging_mixin.py:115} INFO - [2024-09-19T16:56:51.662+0000] {dag.py:2429} INFO - Sync 1 DAGs
 [2024-09-19T16:56:51.673+0000] {logging_mixin.py:115} INFO - [2024-09-19T16:56:51.673+0000] {dag.py:2981} INFO - Setting next_dagrun for dag_with_python_operator_v1 to 2024-09-19T00:00:00+00:00, run_after=2024-09-20T00:00:00+00:00
 [2024-09-19T16:56:51.678+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.049 seconds
+[2024-09-19T16:57:21.858+0000] {processor.py:153} INFO - Started process (PID=5034) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-09-19T16:57:21.859+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-09-19T16:57:21.860+0000] {logging_mixin.py:115} INFO - [2024-09-19T16:57:21.860+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-09-19T16:57:21.871+0000] {processor.py:650} INFO - DAG(s) dict_keys(['dag_with_python_operator_v1']) retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-09-19T16:57:21.893+0000] {logging_mixin.py:115} INFO - [2024-09-19T16:57:21.893+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2024-09-19T16:57:21.905+0000] {logging_mixin.py:115} INFO - [2024-09-19T16:57:21.905+0000] {dag.py:2981} INFO - Setting next_dagrun for dag_with_python_operator_v1 to 2024-09-19T00:00:00+00:00, run_after=2024-09-20T00:00:00+00:00
+[2024-09-19T16:57:21.910+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.057 seconds
