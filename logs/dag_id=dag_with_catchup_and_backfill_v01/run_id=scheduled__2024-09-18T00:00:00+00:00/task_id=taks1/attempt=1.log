@@ -1,0 +1,28 @@
+[2024-09-19T18:58:38.217+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: dag_with_catchup_and_backfill_v01.taks1 scheduled__2024-09-18T00:00:00+00:00 [queued]>
+[2024-09-19T18:58:38.221+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: dag_with_catchup_and_backfill_v01.taks1 scheduled__2024-09-18T00:00:00+00:00 [queued]>
+[2024-09-19T18:58:38.221+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-19T18:58:38.221+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 6
+[2024-09-19T18:58:38.221+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-19T18:58:38.226+0000] {taskinstance.py:1389} INFO - Executing <Task(BashOperator): taks1> on 2024-09-18 00:00:00+00:00
+[2024-09-19T18:58:38.228+0000] {standard_task_runner.py:52} INFO - Started process 13685 to run task
+[2024-09-19T18:58:38.229+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_with_catchup_and_backfill_v01', 'taks1', 'scheduled__2024-09-18T00:00:00+00:00', '--job-id', '64', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_catchup_and_backfill.py', '--cfg-path', '/tmp/tmpgjaxcp87', '--error-file', '/tmp/tmp3ndw_ke0']
+[2024-09-19T18:58:38.230+0000] {standard_task_runner.py:80} INFO - Job 64: Subtask taks1
+[2024-09-19T18:58:38.252+0000] {task_command.py:371} INFO - Running <TaskInstance: dag_with_catchup_and_backfill_v01.taks1 scheduled__2024-09-18T00:00:00+00:00 [running]> on host a83b02c526f7
+[2024-09-19T18:58:38.279+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=faruk3d
+AIRFLOW_CTX_DAG_ID=dag_with_catchup_and_backfill_v01
+AIRFLOW_CTX_TASK_ID=taks1
+AIRFLOW_CTX_EXECUTION_DATE=2024-09-18T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-09-18T00:00:00+00:00
+[2024-09-19T18:58:38.279+0000] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2024-09-19T18:58:38.280+0000] {subprocess.py:74} INFO - Running command: ['/bin/bash', '-c', 'echo hello world']
+[2024-09-19T18:58:38.283+0000] {subprocess.py:85} INFO - Output:
+[2024-09-19T18:58:38.284+0000] {subprocess.py:92} INFO - hello world
+[2024-09-19T18:58:38.284+0000] {subprocess.py:96} INFO - Command exited with return code 0
+[2024-09-19T18:58:38.358+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=dag_with_catchup_and_backfill_v01, task_id=taks1, execution_date=20240918T000000, start_date=20240919T185838, end_date=20240919T185838
+[2024-09-19T18:58:38.372+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-09-19T18:58:38.385+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check
